@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Friendly Cleaner</title>
+    <title>Energy Philanthropy - Chad's Place Landing Page</title>
 
     <!-- Meta SEO -->
     <meta name="title" content="Energy Philanthropy - Chad's Place Landing Page">
@@ -49,13 +49,29 @@
         font-weight: 400;
     }
 
-    a:hover {
+    a[href*="/"] {
+        color: blue;
+    }
+    a[href*="/"]:hover {
+        color: aqua;
+    }
+    
+    a[href*="#"] {
+        color: blue;
+    }
+    a[href*="#"]:hover {
+        color: aqua;
+    }
+
+    
+
+    /* a:hover {
         color: aqua;
     }
 
     a {
         color: blue;
-    }
+    } */
 
     </style>
 
@@ -85,7 +101,7 @@
     <header class="w-full">
         <nav class="fixed w-full z-20 bg-white border-gray-300 py-2.5">
             <div class="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
-                <a href="#" class="flex items-center">
+                <a class="flex items-center">
                     <img src="./images/sols_logo.png" width="500" height="350" alt="The Friendly Cleaner Logo" />
                     <span class="self-center text-xl font-semibold whitespace-nowrap"></span>
                 </a>
@@ -128,7 +144,7 @@
             </div>                
             <div class="mr-auto place-self-center lg:col-span-7">
                 <!-- These are the services I give freely. High-quality video productions, custom websites, and custom graphics.                 -->
-                <h1 class="max-w-2xl mb-4 text-2xl font-extrabold leading-none tracking-tight md:text-5xl">Get your home looking amazing for a low price!<br><br>Hello, my name is Sol. I would love to meet with you and discuss all your housekeeping needs.<br><br>I offer very competitive rates. I have over five years of experience. I can provide a clean criminal record check. I offer Eco friendly products upon request.</h1>
+                <h1 class="max-w-2xl mb-4 text-2xl text-gray-600 font-extrabold leading-none tracking-tight md:text-5xl">Get your home looking amazing for a low price!<br><br>Hello, my name is Sol. I would love to meet with you and discuss all your housekeeping needs.<br><br>I offer very competitive rates. I have over five years of experience. I can provide a clean criminal record check. I offer Eco friendly products upon request.</h1>
             </div>
         </div>
     </section>
@@ -163,37 +179,63 @@
 
                     <p class="mb-8 font-light lg:text-xl">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;• Dishes</p>
 
+                    <p class="mb-12 text-2xl md:text-3xl font-extrabold tracking-tight text-gray-900">Also available for Car detailing.</p>
+                    
                     <p class="mb-4 text-2xl md:text-3xl font-extrabold tracking-tight text-gray-900">Thank you, I hope to talk with you soon!</p>
                     
                     <!-- <p class="mb-8 font-light lg:text-xl"> I create a project via Zoom or Skype. We will be collaborating together as friends. It's your vision and my expertise and passion.</p> -->
 
                     <!-- It is given freely from my heart without conditions or expectations. It's a donation. What I just sai is it not a mistake and I am not trying to mislead you. I am totally serious. -->
                 </div>
-                <img class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./images/a27230bb-a660-47f9-b6cc-38409f4e3298.jpg" alt="dashboard feature image">
+                <img class="w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./images/sol_and_vacuum.png" alt="dashboard feature image">
             </div>
-            <!-- Row -->
-            <!-- <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16 ">
-                
-                <img class="hidden w-full mb-4 mt-8 rounded-lg lg:mb-0 lg:flex" src="./images/what_is_energy_philanthropy.jpg" alt="energy philanthropy image">
-
-                <div class="text-gray-500 sm:text-lg ">
-                    <h2 id="philanthropy" class="mb-4 text-2xl md:text-3xl font-extrabold tracking-tight text-gray-900 pt-16">What is energy philanthropy?</h2>
-
-                    <p class="mb-8 font-light lg:text-xl">Energy Philanthropy is about freely giving your resources, skills, and time without expecting anything in return. It's not the typical "how much are you going to give me" before I do something for you attitude.</p>
-
-                    <p class="mb-8 font-light lg:text-xl">In practice, it can take many forms, from volunteering to work on a project, donating money to support a cause, or even offering encouragement and support to someone in need.</p>
-                    
-                    <p class="mb-8 font-light lg:text-xl">Simply put, it's about giving your time and energy to someone without an ego attitude. Such as, "How much money do I get for doing this?"</p>
-                    
-                    <p class="mb-8 font-light lg:text-xl">I practice Energy Philanthropy. This means I will give freely to you and your project without expectations or conditions. We'll collaborate together as friends to complete your project.</p>
-                    
-                    <p class="mb-8 font-light lg:text-xl">Written by Chad Estell on Monday, March 6th, 2023.</p>                    
-
-                </div>
-            </div> -->
         </div>
     </section>
     <!-- End block -->
+
+    
+    <!-- Start block -->
+    <section id="services" class="bg-white">
+        
+        <div class="max-w-screen-xl px-4 py-8 mx-auto space-y-12 lg:space-y-20 lg:py-24 lg:px-6">
+            
+            <!-- Row -->
+            <div class="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
+                
+                <img class="w-full mb-4 rounded-lg lg:mb-0 lg:flex" src="./images/sol_and_bathroom.jpg" alt="dashboard feature image">
+                <div class="text-gray-600 sm:text-lg ">
+
+                    <div class="mr-auto place-self-center lg:col-span-6">
+                        <!-- These are the services I give freely. High-quality video productions, custom websites, and custom graphics.                 -->
+                        <h1 class="max-w-2xl mb-4 text-2xl font-extrabold leading-none tracking-tight md:text-5xl">"Don't let the perfect be the enemy of the good. Lower the bar. Actually spending ten minutes clearing off one shelf is better than fantasizing about spending a weekend cleaning out the basement."<br><br>Gretchen Rubin.</h1>
+                    </div>
+        
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- End block -->
+
+
+    <!-- Start block -->
+    <!-- <section class="bg-white ">
+        <div class="grid max-w-screen-xl px-4 pt-4 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
+            <div class="h-auto max-w-full ml-auto lg:col-span-5 md:pr-10 pb-6">
+                <img class="mx-auto pt-20 lg:pt-0" src="./images/sol_and_bathroom.jpg" alt="hero image">
+            </div>                
+            <div class="mr-auto place-self-center lg:col-span-6">
+
+                <h1 class="max-w-2xl mb-4 text-2xl font-extrabold leading-none tracking-tight md:text-5xl">"Don't let the perfect be the enemy of the good. Lower the bar. Actually spending ten minutes clearing off one shelf is better than fantasizing about spending a weekend cleaning out the basement."<br><br>Gretchen Rubin.</h1>
+            </div>
+        </div>
+    </section> -->
+    <!-- End block -->
+
+
+
+    
+    
     <!-- Completed Video Projects THE GALLERY SECTION-->
     <!-- <section id="gallery" class="bg-gray-50 ">
         <hr class="border-gray-300">
@@ -359,38 +401,16 @@
 
 
 
-    <!-- Start -->
-    <footer id="contact" class="bg-white mb-6">
-        <hr class="mb-6 border-gray-300 sm:mx-auto lg:mb-4">
-        <div class="text-center">
-            <a href="#" class="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 ">
-                <img src="./images/smiley-face-png-3.png" class="h-6 mr-3 sm:h-9" alt="Landwind Logo" />
+<!-- Start -->
+<footer id="contact" class="mb-10 pb-10 bg-gray-200">
+    <hr class="mb-10 border-gray-300 sm:mx-auto lg:mb-10">
+    <div class="text-center">
+        <div>
+            <a class="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900">
+                <img src="./images/smiley-face-png-3.png" class="h-6 mr-3 sm:h-9" alt="" />
                 Contact Sol
             </a>
-            <span class="block text-sm text-center"></span><a href="https://mail.google.com/mail/?view=cm&fs=1&to=solomon.phelanosun@gmail.com" target="_blank">Email: solomon.phelanosun@gmail.com</a></span>
-
-            
-            </span>
-            <!-- <div id="donation" class="mt-6 mb-6">
-                <p class="mb-4">Thank you for your interest.</p>
-            <a style="background: #0076d1 url(https://donorbox.org/images/red_logo.png) no-repeat 37px;color: #fff;text-decoration: none;font-family: Verdana,sans-serif;display: inline-block;font-size: 16px;padding: 15px 38px;padding-left: 75px;-webkit-border-radius: 2px;-moz-border-radius: 2px;border-radius: 2px;box-shadow: 0 1px 0 0 #1f5a89;text-shadow: 0 1px rgba(0, 0, 0, 0.3);" href="https://donorbox.org/chad-estell?default_interval=o">Donate</a>
-            </div>
-            <ul class="flex justify-center mt-5 space-x-5">
-                <li>
-                </li>
-                <li>
-                </li>
-                <li>
-                    <a href="https://twitter.com/Chad_333" class="text-gray-500">
-                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" /></svg>
-                    </a>
-                </li>
-                <li>
-                </li>
-                <li>
-                </li>
-            </ul> -->
-            
+            <span class="text-sm text-center"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=solomon.phelanosun@gmail.com" target="_blank">Email: solomon.phelanosun@gmail.com</a></span>
         </div>
     </div>
 </footer>
